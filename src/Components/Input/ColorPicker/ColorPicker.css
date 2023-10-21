@@ -1,0 +1,27 @@
+
+.color-picker-container{
+    position: relative;
+}
+
+.color-picker{
+    position: absolute;
+    top: 100%;
+    background-color: #ececec;
+    padding: 1rem;
+    z-index: 1;
+}
+.color-picker-button{
+    /* position: absolute; */
+    /* top: 0; */
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+    background: #eeeeee;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    /* min-width: 10rem; */
+    /* margin: 1rem; */
+    border-radius: 0.5rem;
+}
